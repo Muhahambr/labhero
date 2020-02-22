@@ -25,6 +25,10 @@ private:
 	
 	Sprite * sprGreenFloor;
 
+	Image * imgHeroPing;
+	Texture * texHeroPink;
+	Sprite * Hero;
+
 	void InitSprites();
 
 

@@ -36,7 +36,9 @@ void LabMap::CheckWindowForCloseBtnPressed()
 void LabMap::DrawFrame()
 {
 	sprGreenFloor->setPosition(Vector2f(0, 0));
+
 	window->draw(*sprGreenFloor);
+	window->draw(*Hero);
 
 
 	window->display();
@@ -54,7 +56,22 @@ void LabMap::InitSprites()
 
 	sprGreenFloor = new Sprite();
 	sprGreenFloor->setTexture(*texAtlas1);
-	sprGreenFloor->setTextureRect( IntRect(129, 33, 64, 64) );
+	sprGreenFloor->setTextureRect( IntRect(127, 31, 64, 64) );
+
+
+
+	//pink hero
+	imgHeroPing = new Image();
+	imgHeroPing->loadFromFile("images/Hero/remakertp01.png");
+	imgHeroPing->createMaskFromColor( Color(255, 91, 91) );
+
+	
+	texHeroPink = new Texture();
+	texHeroPink->loadFromImage(*imgHeroPing);
+
+	Hero = new Sprite();
+	Hero->setTexture(*texHeroPink);
+	Hero->setTextureRect(IntRect(0, 0, 32, 48));
 }
 
 
