@@ -125,6 +125,7 @@
   <ItemGroup>
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="LabHero.cpp" />
+    <ClCompile Include="LabMap.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -132,6 +133,7 @@
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="LabHero.h" />
     <ClInclude Include="helpers.h" />
+    <ClInclude Include="LabMap.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

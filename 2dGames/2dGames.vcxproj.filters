@@ -24,6 +24,9 @@
     <ClCompile Include="LabHero.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="LabMap.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core.h">
@@ -37,6 +40,9 @@
     </ClInclude>
     <ClInclude Include="helpers.h">
       <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="LabMap.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
